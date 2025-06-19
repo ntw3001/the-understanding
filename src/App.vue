@@ -1,11 +1,13 @@
 <script setup lang="ts">
-
+  import Hello from './components/hellow_Orld.vue';
 </script>
 
 <template>
-  <header>
-    How do you Vue
-  </header>
+  <Hello/>
+  <Hello/>
+  <Hello/>
+  <Hello/>
+  <Hello/>
 </template>
 
 <style scoped>
