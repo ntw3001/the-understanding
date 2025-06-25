@@ -3,6 +3,8 @@
   import myComponent from './components/myComponent.vue';
   import globalStyle from './components/globalStyle.vue';
   import localStyle from './components/localStyle.vue';
+  import combinedStyle from './components/combinedStyle.vue';
+  import moduleStyle from './components/moduleStyle.vue';
 
   const message = 'Hello World';
 
@@ -19,6 +21,8 @@
   <myComponent/>
   <globalStyle/>
   <localStyle/>
+  <combinedStyle/>
+  <moduleStyle/>
 </template>
 
 <style scoped>
